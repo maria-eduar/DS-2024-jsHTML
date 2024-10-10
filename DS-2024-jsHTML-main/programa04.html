@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>numero secreto I</title>
+</head>
+<body>
+    <script>
+    function pulalinha(){
+        document.write('<br>')
+    }
+    function mostra(texto){
+        document.write(texto)
+        pulalinha()
+    }
+
+    let numeroSecreto = Math.round(Math.random() * 10)
+    console.log(numeroSecreto)
+   
+    let chute = prompt('Qual o número estou pesnsando de 1 a 10?')
+
+    if( chute == numeroSecreto){
+        mostra('Parabens! Você acertou')
+    } else{
+        mostra(`Você errou! o numero secreto é ${numeroSecreto}`)
+    }
+
+    //if( Chute != numeroSecreto) -> != é o sinal de diferente 
+</script>
+</body>
+</html>
