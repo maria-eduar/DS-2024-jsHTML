@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Updock&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --fonte-titulo:"Lobster", sans-serif;
+    --fonte-texto:"Updock", cursive;
+    --rosa-claro: #ffe5ecff;
+    --salmão: #ffc2d1ff;
+    --rosa-meio-forte: #ffb3c6ff;
+    --rosa-forte: #ff8fabff;
+    --rosa-muito-forte: #fb6f92ff;
+    --preto: #000000;
+}
+ body{
+    background-color: var(--rosa-meio-forte);
+    font-family: var(--fonte-texto);
+ }
+ header{
+    background-color: var(--rosa-muito-forte);
+    text-align: center;
+    padding: 3em;
+    color: var(--preto);
+ }
+ header h1{
+    font-family: var(--fonte-titulo);
+    font-size: 2.5em;
+ }
+ 
+ .projetos{
+    padding: 3%;
+    display: flex;
+ }
