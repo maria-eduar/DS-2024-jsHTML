@@ -56,4 +56,31 @@
    color: var(--rosa-muito-forte);
  }
 
+ footer {
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+ }
+
+ footer a{
+   text-decoration: none;
+   color: var(--preto);
+ }
+.principal-numero{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 50vh;
+}
+.numero-input{
+   font-size: 2em;
+}
+.numero-botao{
+   margin-left: 1em;
+   font-size: 1.5em;
+   padding: 1em;
+   background-color: var(--rosa-muito-forte);
+   color: var(--preto);
+   border-radius: 15px;
+}
 
